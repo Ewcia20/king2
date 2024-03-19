@@ -106,4 +106,74 @@ p {
   }
 }
 
+.col {
+  width: 100%;
+  padding: 0 15px 15px 15px;
+}
+@media screen and (min-width: 768px) {
+  .col--md50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col--md33 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col--md25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col--lg50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col--lg33 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col--lg25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.btn--pink {
+  background-color: #E07A5F;
+}
+.btn--pink:hover {
+  background-color: #ca755f;
+}
+.btn--green {
+  background-color: #337632;
+}
+.btn--green:hover {
+  background-color: #336a32;
+}
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid white;
+  font-family: inherit;
+}
+
 /*# sourceMappingURL=main.css.map */
