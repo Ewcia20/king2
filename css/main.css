@@ -56,4 +56,26 @@ table {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Allura, cursive;
+  font-family: Italianno, cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-family: Italianno, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  padding: 10px;
+  margin-top: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */
