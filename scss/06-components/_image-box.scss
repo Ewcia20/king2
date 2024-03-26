@@ -1,0 +1,41 @@
+@use '../02-tools/' as *;
+
+.image-box {
+
+    border-radius: .6rem;
+    box-shadow: 0 0 15px gray;
+    cursor: pointer;
+    
+    &:hover {
+        box-shadow: 0 0 25px gray;
+    }
+
+    &__image {
+        background: url(../../assets/img/one.jpeg.jpeg) center/cover;
+        height: 20rem;
+        display: block;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+
+        &--next {
+        background: url(../../assets/img/gallery2.jpeg.jpeg) center/cover;
+        }
+        &--next1 {
+        background: url(../../assets/img/gallery5.jpeg.jpeg) center/cover;
+        }
+        &--next2 {
+        background: url(../../assets/img/gallery6.jpeg.jpeg) center/cover;
+        }
+        
+        @include medium {
+            height: 16rem;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+    }
+}
