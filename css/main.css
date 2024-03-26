@@ -261,4 +261,27 @@ p {
   right: 0;
 }
 
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem;
+}
+.site-section--bg-color {
+  background-color: #E07A5F;
+}
+.site-section--bg-color {
+  border-color: #337632;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-algin-center {
+  text-align: center;
+}
+
+.text-algin-justify {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=main.css.map */
