@@ -62,8 +62,8 @@ html {
 }
 
 body {
-  font-family: Allura, cursive;
-  font-family: Italianno, cursive;
+  font-family: "Allura", cursive;
+  font-family: "roboto", cursive;
 }
 
 a {
@@ -307,6 +307,9 @@ p {
 }
 .site-section--bg-color {
   border-color: #337632;
+}
+.site-section .col {
+  font-family: "roboto";
 }
 
 .site-footer {

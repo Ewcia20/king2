@@ -3,6 +3,7 @@
 .site-section {
     min-height: 70vh;
     padding-top: 3rem;
+    
 
 
     &--bg-color {
@@ -12,4 +13,10 @@
     &--bg-color {
         border-color: $color-green;
     }
+
+    .col {
+        font-family: 'roboto';
+    }
+
+
 }
