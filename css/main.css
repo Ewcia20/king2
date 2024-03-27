@@ -258,7 +258,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .image-box__image {
-    height: 10rem;
+    height: 16rem;
   }
 }
 .image-box__text {
@@ -307,6 +307,12 @@ p {
 }
 .site-section--bg-color {
   border-color: #337632;
+}
+
+.site-footer {
+  border-color: #E07A5F;
+  height: 40vh;
+  color: white;
 }
 
 .text-color-white {
