@@ -247,7 +247,7 @@ p {
   border-top-right-radius: 0.6rem;
 }
 .image-box__image--next {
-  background: url(../assets/img/gallery2.jpeg) center/cover;
+  background: url(../assets/img/gallery4.jpeg) center/cover;
 }
 .image-box__image--next1 {
   background: url(../assets/img/gallery5.jpeg) center/cover;
@@ -268,7 +268,7 @@ p {
 }
 
 .site-header {
-  background: url(../assets/img/20240318_084412.jpeg) center/cover fixed;
+  background: url(assets/img/20240318_084412.jpeg) center/cover fixed;
   height: 50vh;
   position: relative;
 }
