@@ -240,20 +240,20 @@ p {
   box-shadow: 0 0 25px gray;
 }
 .image-box__image {
-  background: url(../../assets/img/one.jpeg.jpeg) center/cover;
+  background: url(../assets/img/one.jpeg) center/cover;
   height: 20rem;
   display: block;
   border-top-left-radius: 0.6rem;
   border-top-right-radius: 0.6rem;
 }
 .image-box__image--next {
-  background: url(../../assets/img/gallery2.jpeg.jpeg) center/cover;
+  background: url(../assets/img/gallery2.jpeg) center/cover;
 }
 .image-box__image--next1 {
-  background: url(../../assets/img/gallery5.jpeg.jpeg) center/cover;
+  background: url(../assets/img/gallery5.jpeg) center/cover;
 }
 .image-box__image--next2 {
-  background: url(../../assets/img/gallery6.jpeg.jpeg) center/cover;
+  background: url(../assets/img/gallery6.jpeg) center/cover;
 }
 @media screen and (min-width: 700px) {
   .image-box__image {
