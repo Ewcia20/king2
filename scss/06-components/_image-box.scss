@@ -11,20 +11,20 @@
     }
 
     &__image {
-        background: url(../../assets/img/one.jpeg.jpeg) center/cover;
+        background: url(../assets/img/one.jpeg.jpeg) center/cover;
         height: 20rem;
         display: block;
         border-top-left-radius: .6rem;
         border-top-right-radius: .6rem;
 
         &--next {
-        background: url(../../assets/img/gallery2.jpeg.jpeg) center/cover;
+        background: url(../assets/img/gallery2.jpeg.jpeg) center/cover;
         }
         &--next1 {
-        background: url(../../assets/img/gallery5.jpeg.jpeg) center/cover;
+        background: url(../assets/img/gallery5.jpeg.jpeg) center/cover;
         }
         &--next2 {
-        background: url(../../assets/img/gallery6.jpeg.jpeg) center/cover;
+        background: url(../assets/img/gallery6.jpeg.jpeg) center/cover;
         }
         
         @include medium {
